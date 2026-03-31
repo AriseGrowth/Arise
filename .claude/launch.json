@@ -1,0 +1,8 @@
+{
+  "name": "Arise Growth Dev Server",
+  "runtimeExecutable": "npm",
+  "runtimeArgs": ["run", "dev"],
+  "port": 3000,
+  "cwd": "${workspaceFolder}",
+  "autoVerify": true
+}
