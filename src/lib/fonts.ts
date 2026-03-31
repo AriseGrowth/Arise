@@ -1,13 +1,14 @@
-import localFont from 'next/font/local'
+import { Inter, Noto_Serif_Hebrew } from 'next/font/google'
 
-// Use system font stack with CSS variable for consistent rendering
-// When deploying, replace with next/font/google imports for Inter + Noto Serif Hebrew
-export const inter = {
+export const inter = Inter({
+  subsets: ['latin'],
   variable: '--font-inter',
-  className: '',
-}
+  display: 'swap',
+})
 
-export const notoSerifHebrew = {
+export const notoSerifHebrew = Noto_Serif_Hebrew({
+  subsets: ['hebrew'],
   variable: '--font-noto-serif-hebrew',
-  className: '',
-}
+  display: 'swap',
+  weight: ['400', '700'],
+})

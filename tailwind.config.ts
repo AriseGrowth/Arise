@@ -17,8 +17,8 @@ const config: Config = {
         'whatsapp-dark': '#1a1a1a',
       },
       fontFamily: {
-        sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
-        hebrew: ['serif'],
+        sans: ['var(--font-inter)', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+        hebrew: ['var(--font-noto-serif-hebrew)', 'serif'],
       },
       letterSpacing: {
         'editorial': '-0.04em',
